@@ -1,0 +1,87 @@
+nav {
+  padding: 25px;
+  background-color: "";
+  box-shadow: 0 4px 2px -2px rgba(128, 128, 128, 0.568);
+}
+
+nav .select {
+  text-align: end;
+}
+
+nav .select select {
+  width: 50%;
+}
+
+.dark-nav {
+  background-color: #202c37;
+  color: white;
+}
+
+.dark-nav .card, .dark-nav input, .dark-nav .searchBtn {
+  background-color: #2b3945;
+  color: white;
+}
+
+.dark-nav .searchBtn, .dark-nav input {
+  background-color: #2b3945 !important;
+  color: white;
+  border: 0;
+}
+
+.dark-nav input:focus {
+  color: white;
+}
+
+.nameCountry {
+  font-size: 32px;
+  margin-bottom: 12%;
+}
+
+.flagCountry {
+  height: 400px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.card {
+  max-width: 250px;
+  max-height: 340px;
+  /* min-width: 340px; */
+  min-height: 340px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.card .card-title {
+  margin-bottom: 1.75rem !important;
+}
+
+.card img {
+  width: 250px;
+  height: 167px;
+}
+
+.card .card-text {
+  margin: 0;
+}
+
+.back {
+  display: inline-block;
+  padding: 9px 19px;
+  background: white;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.back i {
+  display: inline-block;
+  margin-right: 13px;
+}
+
+.dark-nav .back {
+  color: white;
+  background-color: #2b3945;
+}

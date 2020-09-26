@@ -1,0 +1,30 @@
+nav{
+    padding: 25px;
+    background-color: "";
+    // margin-bottom: ;
+    box-shadow: 0 4px 2px -2px rgba(128, 128, 128, 0.568);
+
+    .select{text-align: end; select{width: 50%;}}
+}
+
+.dark-nav{
+    background-color: $dark-blue-bg;
+    color: $white;
+
+
+
+    .card, input, .searchBtn{
+        background-color: $dark-blue;
+        color: $white;
+    }
+
+    .searchBtn, input{
+        background-color: $dark-blue !important;
+        color: $white;
+        border: 0;
+    }
+
+    input:focus{
+        color: $white;
+    }
+}

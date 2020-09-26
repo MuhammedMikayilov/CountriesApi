@@ -1,0 +1,46 @@
+@import "partials/variables";
+@import "partials/header";
+@import "partials/countries";
+
+.cursor-pointer{
+    cursor: pointer;
+}
+.card{
+    max-width: 250px;
+    max-height: 340px;
+    /* min-width: 340px; */
+    min-height: 340px;
+    margin-bottom: 30px;
+    cursor: pointer;
+
+    .card-title{
+        margin-bottom: 1.75rem !important;
+    }
+
+    img{
+        width: 250px;
+        height: 167px;
+    }
+
+    .card-text{
+        margin: 0;
+    }
+}
+
+.back{
+    display: inline-block;
+    padding: 9px 19px;
+    background: $white;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+
+    i{display: inline-block; margin-right: 13px;}
+}
+
+.dark-nav{
+    .back{
+        color: $white;
+        background-color: $dark-blue;
+    }
+}
